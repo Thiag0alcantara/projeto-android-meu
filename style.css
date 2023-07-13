@@ -83,7 +83,7 @@
             padding: 20px;
             margin: auto;
             box-shadow:2px 8px 9px 2px rgba(0, 0, 0, 0.537);
-            border-radius: 10px 0px;
+            border-radius: 10px 10px 0px 0px;
             max-width: 1000px;
             min-width: 300px;
  
@@ -116,7 +116,32 @@
         columns: 2;
         list-style-type:"\2713\00A0\00A0";
     
-  }
+    }
+    .video{
+        background-color: var(--cor5);
+        margin: 0px -20px 30px -20px;
+       
+        padding-bottom:57%;
+        position: relative;
+        
+            padding: 72px 0px 393px 41.5px;
+            margin: auto;
+            box-shadow:2px 8px 9px 2px rgba(0, 0, 0, 0.537);
+            border-radius: 00px 0px 10px 10px;
+            max-width: 1000px;
+            min-width: 300px;
+    
+    }
+    .video>iframe{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        
+
+    }
+
     
         
   
