@@ -15,15 +15,15 @@
             <a href="#">Home</a>
             <a href="#">Notícias</a>
             <a href="#">Curiosidades</a>
-            <a href="#">Fale Conosco</a>
+            
             
         </nav>
     </header>
         <main>
-            <section id="assuntos">
+            <section>
                  
             </section>
-            <section id="noticias">
+            <section >
 
             </section>
             <article>
@@ -33,7 +33,10 @@
                     <h2>A primeira versão</h2>
                     
                     <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
-                    <img src="Nova pasta/imagens/dan-droids.png" alt="dan-droids/png">
+                    <picture>
+                        <source media="(max-width:530px)" srcset="imagens/dan-droids-pq.png">
+                        <img src="imagens/dan-droids.png" alt="imagem-irina/jpg">
+                    </picture>
                     <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
                     
             </article>
@@ -49,14 +52,14 @@
                     </picture>
                     <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.
                     </p>
-                    <img src="Nova pasta/imagens/bugdroid.png" alt="imagem/bugdroid">
+                    <img id="bugdroid" src="Nova pasta/imagens/bugdroid.png" alt="imagem/bugdroid">
                     <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
                     </p>
                    
                     </article>
                     
         </main>
-        <div  class="video-container">
+        <div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/0ee7EB641wI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
@@ -70,8 +73,8 @@
                     
                     Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em <br> homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
                 </p>
-                <div class="list-container">
-                <ul class="custom-list" >
+                <div>
+                 <ul class="custom-list"> 
                     <li>1.5 - Cupcake</li>
                     <li>1.6 - Donut</li>
                     <li>3.0 - Eclair</li>
@@ -79,9 +82,6 @@
                     <li>2.3 - Gingerbread</li>
                     <li>3.0 - Honeycomb</li>
                     <li>4.0 - Ice Cream Sandwich</li>
-                    
-                </ul>
-                <ul class="custom-list">
                     <li>4.1 - Jelly Bean</li>
                     <li>4.4 - KitKat</li>
                     <li>5.0 - Lolipop</li>
